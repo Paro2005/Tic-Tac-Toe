@@ -148,3 +148,4 @@ while starten == "j":
 exit()
 
 # Testinnnngggg
+#Guete Morge?
