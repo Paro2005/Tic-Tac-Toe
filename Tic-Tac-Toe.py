@@ -9,7 +9,7 @@ def counter():
     
     if spieler == ("x"):
         xlesen = open('x.txt','r')
-        counterx = xlesen.read()
+        counterx = xlesen.input()
         counterx = int(counterx)
         xschreiben = open('x.txt','w')
         counterx = counterx + 1
@@ -17,7 +17,7 @@ def counter():
         xschreiben.close
     else:
         olesen = open('o.txt','r')
-        countero = olesen.read()
+        countero = olesen.write()
         countero = int(countero)
         oschreiben = open('o.txt','w')
         countero = countero + 1
