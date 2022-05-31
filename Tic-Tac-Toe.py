@@ -146,3 +146,5 @@ while starten == "j":
     initialisierung_abfragen()
     spieler_wechseln()
 exit()
+
+# Testinnnngggg
